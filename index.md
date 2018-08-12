@@ -24,14 +24,15 @@ I grew up and went to school in Serbia before coming to Miami in 2009
 for grad school. I worked as a tattoo artist in Belgrade from 2007 to 2009.
 During my PhD, I worked with teams from US Navy, NASA, DOE, and several 
 universities on building and improving Earth system prediction models.
+You can find all my papers [here](https://milancurcic.com/publications).
 After graduating, I stayed in academia but started thinking about 
 how to make viable businesses from science.
 I enjoy doing many things -- it makes life more interesting for me.
 I currently live in Boca Raton, Florida, with my wife Evelyn.
 
 I'm here to help. My formal expertise is in parallel computing and 
-Earth system modeling, but you can ask me anything. 
+Earth system model development, but you can ask me anything. 
 I'm interested in computer science, weather and ocean prediction, 
-cloudrun computing, entrepreneurship in science, 
+cloud computing, entrepreneurship in science, 
 remote work and work-life balance.
 I answer all emails and would love to hear from you.
