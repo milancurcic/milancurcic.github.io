@@ -18,16 +18,16 @@ email: caomaco@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
         Congratulations, you made it to Milan's world. :)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://milancurcic.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://milancurcic.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: realmilancurcic
-github_username:  milancurcic
-linkedin_username:  milancurcic
+github_username: milancurcic
+linkedin_username: milancurcic
 
 # Build settings
 markdown: kramdown
 theme: minima
-#plugins:
-#  - jekyll-feed
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
