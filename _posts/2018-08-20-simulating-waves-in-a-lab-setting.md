@@ -183,6 +183,7 @@ Length | 23 m
 Width |  6 m   
 $\Delta x$ |  1 m  
 $\Delta y$ |  1 m
+Water depth | 0.8 m
 Frequency range | 0.5 - 100 Hz
 Directions | 36
 Wind speed  | 5 - 60 m/s
