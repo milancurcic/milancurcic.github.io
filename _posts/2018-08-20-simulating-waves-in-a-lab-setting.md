@@ -116,7 +116,7 @@ for wave energy spectra to match up with the observed ones in hurricane
 conditions (Chen and Curcic, 2016). Earlier this year and shortly before passing,
 Mark Donelan proposed that $\mathcal{A}$ should actually be a function of
 the waves Reynolds number resulting in drag coefficient that decays in winds
-above 30 m/s or so, reaching a local minimum at about $U_{10} = 55$ m/s.
+above 30 m/s or so, reaching a local minimum at about $U_{10} = 55$ m/s (Donelan, 2018).
 Mark's Reynolds number data originate from the ASIST tank experiments
 described in Donelan et al. (2004), so they didn't go beyond 60 m/s winds.
 
