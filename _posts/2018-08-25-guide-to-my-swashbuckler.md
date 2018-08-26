@@ -46,14 +46,13 @@ damage to the attack in the next round (totaling to +8).
 
 ### Getting attacked in melee
 
-If you have more than 1 panache point, take advantage of _oportune parry and reposte_
+If you have more than 1 panache point and didn't expend use of an attack of opportunity, take advantage of _oportune parry and reposte_
 (a swashbuckler deed). When the DM announces a melee attack, announce a parry:
 
 1. DM rolls for attack;
 2. Make an attack roll to parry. If greater then attacker's roll, their attack
 automatically fails;
-3. If you didn't use an attack of opportunity in this round, make an attack roll now,
-and follow the steps for [making a melee attack](#making-a-melee-attack).
+3. If successful, make an attack roll and follow the steps for [making a melee attack](#making-a-melee-attack).
 
 ### Other situational stuff
 
