@@ -8,11 +8,11 @@ I am used to playing simpler Pathfinder classes like rogue or cleric.
 Swashbuckler is a hybrid class (fighter / rogue) that adds the panache pool
 and deeds mechanic, analogous to Gunslinger's grit point pool.
 Even at 4th level, swashbuckler adds quite a few tricks that make combat
-a bit more complex. I often catch myself forgetiting about many of these
+a bit more complex. I often catch myself forgetting about many of these
 tricks and bonuses in the moment, but after the fact it's too late.
 
 This guide gives simple rules to follow when playing my swashbuckler.
-It's for my own reference, but will be useful when I can't play and 
+It's mainly for my own reference, but will be useful when I can't play and 
 others are filling in for me.  
 
 Jump to:
@@ -28,7 +28,7 @@ Jump to:
 
 All of the special tricks such as precision damage and intimidate as a swift
 action requires having at least 1 panache point in the pool.
-To make it easier, I always make sure to not use my last panache points,
+To make it easier, I always make sure to not use my last panache point,
 so these bonuses are always enabled.
 
 ### Making a melee attack
@@ -38,7 +38,7 @@ so these bonuses are always enabled.
 2. Roll for damage:
   * If using a light, one-handed melee or thrown piercing weapon, add +4 as precision damage;
   * If opponent reduced to 0 or less HP, gain 1 panache point;
-  * If not, roll for Intimidate.
+3. If opponent still stands, roll an intimidate check as a swift action. 
 If successful, the opponent is shaken for 1 round (-2 to attack, saving throws, skill checks, and ability checks).
 
 Optionally, you can spend 1 panache point to add +4 precision
@@ -46,19 +46,19 @@ damage to the attack in the next round (totaling to +8).
 
 ### Getting attacked in melee
 
-If more than 1 panache point, take advantage of _oportune parry and reposte_
+If you have more than 1 panache point, take advantage of _oportune parry and reposte_
 (a swashbuckler deed). When the DM announces a melee attack, announce a parry:
 
 1. DM rolls for attack;
 2. Make an attack roll to parry. If greater then attacker's roll, their attack
 automatically fails;
-3. If didn't use attack of opportunity in this round, make an attack roll now,
+3. If you didn't use an attack of opportunity in this round, make an attack roll now,
 and follow the steps for [making a melee attack](#making-a-melee-attack).
 
 ### Other situational stuff
 
 * As a full-round action, you can roll to intimidate all foes within 30 ft 
-(Dazzling display feat).
+(dazzling display feat).
 * If prone, you can use _kip-up_ deed to stand up as a swift action,
 without provoking attacks of opportunity.
 * 3 times per day, you can add Cha bonus to saving throws (_Charmed Life_).
@@ -70,9 +70,7 @@ If you roll a 6, roll again. You can do up to 3 rolls (Charisma modifier).
 
 ## Stats
 
-Human swashbuckler 4
-
-CN Medium
+CN medium human swashbuckler 4
 
 **Init** +2
 
