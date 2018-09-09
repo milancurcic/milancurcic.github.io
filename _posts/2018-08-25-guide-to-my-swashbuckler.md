@@ -17,12 +17,20 @@ others are filling in for me.
 
 Jump to:
 
+* [Panache pool](#panache-pool)
 * [Combat guide](#combat-guide)
   - [Making a melee attack](#making-a-melee-attack)
   - [Getting attacked in melee](#getting-attacked-in-melee)
   - [Other situational stuff](#other-situational-stuff)
 * [Stats](#stats)
 * [Reference](#reference)
+
+## Panache pool
+
+A swashbuckler has something called panache pool.
+Each day, Needle starts with 5 panache points (3 from Cha modifier and 2 from _Extra Panache_ feat).
+Using deeds typically expands a panache point (see details below).
+Making a crit or killing an opponent refills one panache point.
 
 ## Combat guide
 
@@ -65,7 +73,7 @@ without provoking attacks of opportunity.
 Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check (_Derring do_ deed).
 I typically do this to pull off crazy acrobatic tricks like running
 over crowds or doing a summer sault over the opponent.
-If you roll a 6, roll again. You can do up to 3 rolls (Charisma modifier).
+If you roll a 6, roll again. You can do up to 4 rolls (Dex modifier).
 
 ## Stats
 
