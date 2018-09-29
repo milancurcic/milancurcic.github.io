@@ -13,7 +13,7 @@ We also tackle a few other real-world applications such as building a parallel
 neural network, stock price time series analysis, and others.
 If you're just getting started with Fortran programming, or you're interested
 in making your Fortran more clear, expressive, and functional, this is a book for you.
-Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf) for free before purchasing the book!
+Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf) for free before [purchasing the book](https://www.manning.com/books/modern-fortran?a_aid=modernfortran&a_bid=2dc4d442)!
 
 [Table of contents](#table-of-contents) |
 [Source code](#source-code) |
