@@ -3,6 +3,7 @@ layout: post
 title: "Analyzing stock price time series with modern Fortran, Part 1"
 author: "Milan Curcic"
 ---
+<link rel="canonical" href="https://freecontent.manning.com/analyzing-stock-price-time-series-with-fortran-arrays-part1">
 
 ![]({{ "/assets/chris-liverani-screen.jpg" | absolute_url }})
 
