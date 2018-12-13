@@ -4,7 +4,7 @@ title: Now
 permalink: /now/
 ---
 
-* Drag measurements in extreme winds over swell in ASIST happening now.
+* Drag measurements in extreme winds over swell in ASIST.
 * Developing and testing the new Cloudrun forecast wizard. 
-* Revising Chapter 6 of Modern Fortran and sketching out Chapter 7.
+* Working on Chapter 7 of Modern Fortran.
 * Livin' la vida [Boca](https://www.myboca.us)!

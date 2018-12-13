@@ -32,7 +32,7 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 #### 4 Analyzing Time Series Data with Arrays
 ### **Part II: Advanced Fortran Use**
 #### 5 Going Parallel with Fortran Coarrays
-#### 6 Building a Parallel Neural Net with Derived Types
+#### 6 Working with Abstract Data using Derived Types
 #### 7 Overloading Operators and Generic Functions
 #### 8 Input and Output: Namelists, JSON, and NetCDF
 ### **Part III: The Final Stretch**
