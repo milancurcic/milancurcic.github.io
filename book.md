@@ -26,13 +26,13 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 ## Table of Contents
 
 ### **Part I: Getting Started with Modern Fortran**
-#### 1 [Introducing Fortran](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf)
-#### 2 Getting Started: Minimal Working App
-#### 3 Writing Reusable Code with Procedures and Modules
-#### 4 Analyzing Time Series Data with Arrays
+#### 1 [Introducing Fortran](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf) &#x2705;
+#### 2 Getting Started: Minimal Working App &#x2705;
+#### 3 Writing Reusable Code with Procedures and Modules &#x2705;
+#### 4 Analyzing Time Series Data with Arrays &#x2705;
 ### **Part II: Advanced Fortran Use**
-#### 5 Going Parallel with Fortran Coarrays
-#### 6 Working with Abstract Data using Derived Types
+#### 5 Going Parallel with Fortran Coarrays &#x2705;
+#### 6 Working with Abstract Data using Derived Types &#x2705;
 #### 7 Overloading Operators and Generic Functions
 #### 8 Input and Output: Namelists, JSON, and NetCDF
 ### **Part III: The Final Stretch**
@@ -41,8 +41,8 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 #### 11 Easy to use Apps with Rich CLIs and Documentations
 #### 12 Publishing your Fortran App
 ### **Appendices**
-#### A: Setting up the Fortran Development Environment
-#### B: From Calculus to Code
+#### A: Setting up the Fortran Development Environment &#x2705;
+#### B: From Calculus to Code &#x2705;
 #### C: Glossary
 
 ## Source code
