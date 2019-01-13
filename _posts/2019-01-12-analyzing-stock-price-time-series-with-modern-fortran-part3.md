@@ -15,7 +15,14 @@ You can also read it on [Medium](https://medium.com/modern-fortran/analyzing-sto
 
 In [Part 1](https://milancurcic.com/2018/11/06/analyzing-stock-price-time-series-with-modern-fortran-part1.html), I explained how to declare and initialize dynamic Fortran arrays. I also showed how to use the so-called array constructors to conveniently allocate and initialize an array in a single line of code. In [Part 2](https://milancurcic.com/2018/12/13/analyzing-stock-price-time-series-with-modern-fortran-part2.html), we went into more detail on explicit allocation and deallocation of Fortran arrays, which gives you finer control such as using custom index ranges for your arrays. Explicit allocation also comes with built-in exception handling, allowing you to write more robust and fault-tolerant code. You also learned how to slice arrays with arbitrary range and stride. If you haven’t yet read the first two parts, I recommend you go back and do that before moving on. In the third and final part, we’ll use built-in functions and whole-array arithmetic to calculate some interesting metrics such as moving average and standard deviation. We’ll use these to tackle the remaining two stock price analysis challenges — identifying risky stocks, and finding good times to buy and sell.
 
-### Identifying risky stocks
+Jump to:
+
+* [Identifying risky stocks](#identifying-risky-stocks)
+* [Calculating moving average and standard deviation](#calculating-moving-average-and-standard-deviation)
+* [Finding good times to buy and sell](#finding-good-times-to-buy-and-sell)
+* [Summary](#summary)
+
+## Identifying risky stocks
 
 One of the ways to estimate how risky is a stock at some time is by looking at the so-called volatility. Stock volatility can be quantified as the standard deviation of the stock price relative to its average. Standard deviation is a statistical measure that tells you how much individual array elements deviate from the average. To estimate volatility, we’ll implement functions to compute average and standard deviation given an arbitrary input array. Furthermore, we’ll compute these metrics over a limited time window, and sliding that window along the whole time series. This is the so-called moving average. For example, the figure below shows the actual price, 30-day moving average, and volatility based on 30-day moving standard deviation for Nvidia stock.
 
@@ -60,7 +67,7 @@ To use arithmetic operators on whole arrays, the arrays on either side of the op
 
 We’re not done here, however. Rather than just the average and standard deviation of the whole time series, we’re curious about these metrics that are relevant to a specific time, and we want to be able to see how they evolve. For this we can use the average and standard deviation along a moving time window. A commonly used metric in finance is the so-called *simple moving average*, which takes an average of some number of previous points, moving in time. We’ll tackle this one in the following section.
 
-### Calculating a moving average and standard deviation
+## Calculating moving average and standard deviation
 
 Our current implementations for average and standard deviation are great but they don’t let us specify a narrow time period that would give us more useful information about stock volatility at a certain time. Let’s write a function `moving_average` that takes an input real array `x` and integer window `w`, and returns an array that has the same size as `x`, but with each element being an average of w previous elements of x. For example, for `w = 10`, the moving average at element `i` would be the average of `x(i-10:i)`. In finance, this is often referred to as the simple moving average.
 
@@ -108,7 +115,7 @@ end program stock_volatility
 
 Look inside the [I/O module](https://github.com/modern-fortran/stock-prices/blob/master/src/mod_io.f90) to see how is the `write_stock` subroutine implemented. You can find the full program [here](https://github.com/modern-fortran/stock-prices/blob/master/src/stock_volatility.f90).
 
-### Finding good times to buy and sell
+## Finding good times to buy and sell
 
 Can we use historical stock market data to learn some techniques to determine a good time to buy or sell a certain stock? One of the commonly used indicators by traders is the so-called *moving average crossover*. Consider that the simple moving average is general indicator of whether the stock is going up or down. For example, a 30-day simple moving average would tell you about the overall stock price trend. You can think of it of a smoother and delayed stock price, without the high frequency fluctuations. Combined with the actual stock price, we can use this information to decide whether we should buy or sell, or do nothing — see Figure 2 below.
 
