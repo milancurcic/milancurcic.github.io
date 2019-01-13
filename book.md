@@ -29,7 +29,7 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 #### 1 [Introducing Fortran](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf) &#x2705;
 #### 2 Getting Started: Minimal Working App &#x2705;
 #### 3 Writing Reusable Code with Procedures and Modules &#x2705;
-#### 4 Analyzing Time Series Data with Arrays &#x2705;
+#### 4 [Analyzing Time Series Data with Arrays](https://milancurcic.com/2018/11/06/analyzing-stock-price-time-series-with-modern-fortran-part1.html) &#x2705;
 ### **Part II: Advanced Fortran Use**
 #### 5 Going Parallel with Fortran Coarrays &#x2705;
 #### 6 Working with Abstract Data using Derived Types &#x2705;

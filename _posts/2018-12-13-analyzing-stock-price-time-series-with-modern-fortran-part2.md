@@ -547,7 +547,6 @@ such as moving average and standard deviation.
 We’ll use these to tackle the remaining two challenges — identifying which stocks 
 are riskier than others at any given time, and finding good times to buy or sell stock.
 
-If you want to learn more about the book, check it out on liveBook [here](http://bit.ly/2EcJ5HL)
-and see this [slide deck](http://bit.ly/2EdMGpc). Take 37% off [*Modern Fortran*](http://bit.ly/2EeLiT6). 
-Just enter code **fcccurcic** into the discount
-box at checkout at [manning.com](http://bit.ly/2EaViNj).
+Read [Part 3](https://milancurcic.com/2019/01/12/analyzing-stock-price-time-series-with-modern-fortran-part3.html) now.
+
+_Cover photo by [Rick Tap](https://unsplash.com/@ricktap)._

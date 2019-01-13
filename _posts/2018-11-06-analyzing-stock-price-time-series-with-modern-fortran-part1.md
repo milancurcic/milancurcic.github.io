@@ -566,6 +566,6 @@ and fault-tolerant. We’ll also cover slicing arrays with arbitrary range and s
 We’ll use these techniques to tackle the first stock price analysis challenge –
 finding the best and worst performing stocks.
 
-If you want to learn more about the book, check it out on liveBook [here](http://bit.ly/2EcJ5HL)
-and see this [slide deck](http://bit.ly/2EdMGpc). Take 37% off [*Modern Fortran](http://bit.ly/2EeLiT6). Just enter code **fcccurcic** into the discount
-box at checkout at [manning.com](http://bit.ly/2EaViNj).
+Read [Part 2](https://milancurcic.com/2018/12/13/analyzing-stock-price-time-series-with-modern-fortran-part2.html) now.
+
+_Cover photo by [Chris Liverani](https://unsplash.com/@chrisliverani)._
