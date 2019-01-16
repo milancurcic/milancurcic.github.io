@@ -31,7 +31,7 @@ Jump to:
 * [Model Configuration](#model-configuration)
 * [Results](#results)
 * [Key points](#key-points)
-* [References](references)
+* [References](#references)
 
 ## Wave energy balance
 
