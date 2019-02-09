@@ -2,7 +2,7 @@
 layout: home
 ---
 
-I'm a scientist, entrepreneur, and author.
+I'm a scientist, founder, and author.
 I study water-wave physics in hurricane conditions with Prof. Brian Haus
 in the [SUSTAIN](http://sustain.rsmas.miami.edu) lab at the University of Miami, supported by the National Science Foundation.
 I'm also building [Cloudrun](https://cloudrun.co) with my friend and 
@@ -26,5 +26,5 @@ parallel computing and Earth system model development,
 but you can ask me anything. 
 I'm interested in computer science, weather and ocean prediction, 
 cloud computing, entrepreneurship in science, 
-remote work and work-life balance.
+remote work and work-life harmony.
 I answer all emails and would love to hear from you.
