@@ -33,7 +33,7 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 ### **Part II: Advanced Fortran Use**
 #### 5 Going Parallel with Fortran Coarrays &#x2705;
 #### 6 Working with Abstract Data using Derived Types &#x2705;
-#### 7 Overloading Operators and Generic Functions
+#### 7 Generic Procedures and Operators for any Data Type &#x2705;
 #### 8 Input and Output: Namelists, JSON, and NetCDF
 ### **Part III: The Final Stretch**
 #### 9 Advanced Parallelism with Teams and Events
