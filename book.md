@@ -34,12 +34,13 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 #### 5 Going Parallel with Fortran Coarrays &#x2705;
 #### 6 Working with Abstract Data using Derived Types &#x2705;
 #### 7 Generic Procedures and Operators for any Data Type &#x2705;
-#### 8 Input and Output: Namelists, JSON, and NetCDF
+#### 8 Overloading Operators for Derived Types &#x2705;
+#### 9 Input and Output: Namelists, JSON, and NetCDF
 ### **Part III: The Final Stretch**
-#### 9 Advanced Parallelism with Teams and Events
-#### 10 Interoperability with C: Exposing your App to the Web
-#### 11 Easy to use Apps with Rich CLIs and Documentations
-#### 12 Publishing your Fortran App
+#### 10 Advanced Parallelism with Teams and Events
+#### 11 Interoperability with C: Exposing your App to the Web
+#### 12 Easy to use Apps with Rich CLIs and Documentations
+#### 13 Publishing your Fortran App
 ### **Appendices**
 #### A: Setting up the Fortran Development Environment &#x2705;
 #### B: From Calculus to Code &#x2705;
