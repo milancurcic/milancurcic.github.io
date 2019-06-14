@@ -4,7 +4,7 @@ title: Software
 permalink: /software/
 ---
 
-I make software almost every day of the year
+I make software almost daily
 for my [research](https://milancurcic.com/publications), 
 [business](https://cloudrun.co), 
 and [writing](https://www.manning.com/books/modern-fortran?a_aid=modernfortran&a_bid=2dc4d442). 
