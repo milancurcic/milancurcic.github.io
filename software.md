@@ -40,3 +40,11 @@ Read the paper [here](https://arxiv.org/abs/1902.06714).
 Date and time library for Fortran.
 * [functional-fortran](https://github.com/wavebitscientific/functional-fortran):
 Functional programming in Fortran, with support for all built-in types.
+
+## Devices / embedded
+
+* [scanivalve-mps-python](https://github.com/sustain-lab/scanivalve-mps-python):
+A high-level interface to a 64-port miniature pressure sensor,
+built on top of the TCP protocol.
+* [arduino-wavemaker](https://github.com/sustain-lab/arduino-wavemaker):
+Programming Arduino Uno to power a linear actuator for making waves in a tank.
