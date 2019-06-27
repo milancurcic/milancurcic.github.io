@@ -30,17 +30,15 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 #### 2 Getting Started: Minimal Working App &#x2705;
 #### 3 Writing Reusable Code with Procedures and Modules &#x2705;
 #### 4 [Analyzing Time Series Data with Arrays](https://milancurcic.com/2018/11/06/analyzing-stock-price-time-series-with-modern-fortran-part1.html) &#x2705;
+#### 5 Reading, writing, and formatting your data 🚀
 ### **Part II: Advanced Fortran Use**
-#### 5 Going Parallel with Fortran Coarrays &#x2705;
-#### 6 Working with Abstract Data using Derived Types &#x2705;
-#### 7 Generic Procedures and Operators for any Data Type &#x2705;
-#### 8 Overloading Operators for Derived Types &#x2705;
-#### 9 Input and Output: Namelists, JSON, and NetCDF
+#### 6 Going Parallel with Fortran Coarrays &#x2705;
+#### 7 Working with Abstract Data using Derived Types &#x2705;
+#### 8 Generic Procedures and Operators for any Data Type &#x2705;
+#### 9 Overloading Operators for Derived Types &#x2705;
 ### **Part III: The Final Stretch**
 #### 10 Advanced Parallelism with Teams and Events
 #### 11 Interoperability with C: Exposing your App to the Web
-#### 12 Easy to use Apps with Rich CLIs and Documentations
-#### 13 Publishing your Fortran App
 ### **Appendices**
 #### A: Setting up the Fortran Development Environment &#x2705;
 #### B: From Calculus to Code &#x2705;
