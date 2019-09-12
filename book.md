@@ -28,17 +28,19 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 ### **Part I: Getting Started with Modern Fortran**
 #### 1 [Introducing Fortran](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf) &#x2705;
 #### 2 Getting Started: Minimal Working App &#x2705;
-#### 3 Writing Reusable Code with Procedures and Modules &#x2705;
-#### 4 [Analyzing Time Series Data with Arrays](https://milancurcic.com/2018/11/06/analyzing-stock-price-time-series-with-modern-fortran-part1.html) &#x2705;
-#### 5 Reading, Writing, and Formatting your data 🚀
-### **Part II: Advanced Fortran Use**
-#### 6 Going Parallel with Fortran Coarrays &#x2705;
-#### 7 Working with Abstract Data using Derived Types &#x2705;
-#### 8 Generic Procedures and Operators for any Data Type &#x2705;
-#### 9 Overloading Operators for Derived Types &#x2705;
-### **Part III: The Final Stretch**
-#### 10 Advanced Parallelism with Teams and Events
-#### 11 Interoperability with C: Exposing your App to the Web
+### **Part II: Core elements of Fortran**
+#### 3 Writing Reusable Code with Functions and Subroutines &#x2705;
+#### 4 Organizing your Fortran code using Modules &#x2705;
+#### 5 [Analyzing Time Series Data with Arrays](https://milancurcic.com/2018/11/06/analyzing-stock-price-time-series-with-modern-fortran-part1.html) &#x2705;
+#### 6 Reading, Writing, and Formatting your data &#x2705;
+### **Part III: Advanced Fortran Use**
+#### 7 Going Parallel with Fortran Coarrays &#x2705;
+#### 8 Working with Abstract Data using Derived Types &#x2705;
+#### 9 Generic Procedures and Operators for any Data Type &#x2705;
+#### 10 Overloading Operators for Derived Types &#x2705;
+### **Part IV: The Final Stretch**
+#### 11 Advanced Parallelism with Teams and Events
+#### 12 Interoperability with C: Exposing your App to the Web &#x270D;
 ### **Appendices**
 #### A: Setting up the Fortran Development Environment &#x2705;
 #### B: From Calculus to Code &#x2705;
