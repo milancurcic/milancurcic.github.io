@@ -9,5 +9,5 @@ permalink: /speaking/
 [**Video**](https://www.youtube.com/watch?v=9hXgs-C8itk)
 * **2019-07-24**: Should I Py or Should I Fortran: A place for Fortran and Python in science and engineering. _American Institute for Chemical Engineers_. 
 [**Slides**](https://milancurcic.com/should-i-py-or-should-i-fortran)
-* **2017-07-19**: Coupled Atmosphere-Wave-Ocean Modeling and Observations: Ocean Transport, Atmospheric Convective Processes, and MJO. Science Visitor and Colloquium Program, NASA Jet Propulsion Laboratory. 
+* **2017-07-19**: Coupled Atmosphere-Wave-Ocean Modeling and Observations: Ocean Transport, Atmospheric Convective Processes, and MJO. _Science Visitor and Colloquium Program, NASA Jet Propulsion Laboratory_. 
 [**Slides**](/assets/Curcic_Chen_20170819_JPL.pdf)
