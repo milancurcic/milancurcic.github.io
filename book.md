@@ -26,7 +26,7 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 ## Table of Contents
 
 ### **Part I: Getting Started with Modern Fortran**
-#### 1 [Introducing Fortran](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf) &#x2705;
+#### 1 Introducing Fortran &#x2705;
 #### 2 Getting Started: Minimal Working App &#x2705;
 ### **Part II: Core elements of Fortran**
 #### 3 Writing Reusable Code with Functions and Subroutines &#x2705;
