@@ -40,6 +40,9 @@ Read the paper [here](https://arxiv.org/abs/1902.06714).
 Date and time library for Fortran.
 * [functional-fortran](https://github.com/wavebitscientific/functional-fortran):
 Functional programming in Fortran, with support for all built-in types.
+* [tcp-client-server](https://github.com/modern-fortran/tcp-client-server):
+A minimal Fortran TCP client and server, used to teach interoperability with C.
+Uses [libdill](http://libdill.org) as the sockets library.
 
 ## Devices / embedded
 
