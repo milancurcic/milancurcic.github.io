@@ -13,7 +13,6 @@ We also tackle a few other real-world applications such as building a parallel
 neural network, stock price time series analysis, and others.
 If you're just getting started with Fortran programming, or you're interested
 in making your Fortran more clear, expressive, and functional, this is a book for you.
-Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f-919d-433f-862c-313a7ea2b835/Curcic_MF_MEAP_V02_ch1.pdf) for free before [purchasing the book](https://www.manning.com/books/modern-fortran?a_aid=modernfortran&a_bid=2dc4d442)!
 
 [Table of contents](#table-of-contents) |
 [Source code](#source-code) |
@@ -39,8 +38,8 @@ Download [Chapter 1](https://manning-content.s3.amazonaws.com/download/a/207f04f
 #### 9 Generic Procedures and Operators for any Data Type &#x2705;
 #### 10 Overloading Operators for Derived Types &#x2705;
 ### **Part IV: The Final Stretch**
-#### 11 Advanced Parallelism with Teams and Events
-#### 12 Interoperability with C: Exposing your App to the Web &#x270D;
+#### 11 Interoperability with C: Exposing your App to the Web 🚀
+#### 12 Advanced Parallelism with Teams and Events &#x270D;
 ### **Appendices**
 #### A: Setting up the Fortran Development Environment &#x2705;
 #### B: From Calculus to Code &#x2705;
