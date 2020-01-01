@@ -38,8 +38,8 @@ in making your Fortran more clear, expressive, and functional, this is a book fo
 #### 9 Generic Procedures and Operators for any Data Type &#x2705;
 #### 10 Overloading Operators for Derived Types &#x2705;
 ### **Part IV: The Final Stretch**
-#### 11 Interoperability with C: Exposing your App to the Web 🚀
-#### 12 Advanced Parallelism with Teams and Events &#x270D;
+#### 11 Interoperability with C: Exposing your App to the Web &#x2705;
+#### 12 Advanced Parallelism with Teams, Events, and Collectives &#x2705;
 ### **Appendices**
 #### A: Setting up the Fortran Development Environment &#x2705;
 #### B: From Calculus to Code &#x2705;
