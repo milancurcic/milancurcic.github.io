@@ -8,8 +8,9 @@ in the [SUSTAIN](http://sustain.rsmas.miami.edu) lab at the University of Miami,
 I'm also building [Cloudrun](https://cloudrun.co) with my friend and 
 cofounder Josh Noe. Cloudrun is a SaaS platform for on demand and custom
 numerical weather prediction.
-I'm also writing a [book](https://www.manning.com/books/modern-fortran?a_aid=modernfortran&a_bid=2dc4d442) on parallel Fortran programming 
-with Manning Publications.
+I wrote a [book](https://www.manning.com/books/modern-fortran?a_aid=modernfortran&a_bid=2dc4d442) on parallel Fortran programming,
+and am the founding member of the [fortran-lang.org](https://fortran-lang.org)
+community project.
 
 I grew up and went to school in Serbia before coming to Miami in 2009
 for grad school. I worked as a tattoo artist in Belgrade from 2007 to 2009.
@@ -18,7 +19,7 @@ and improving Earth system prediction models.
 You can find all my papers [here](https://milancurcic.com/publications).
 Now I write, do research, and build software.
 I enjoy doing many things -- it makes life more interesting for me.
-I live in Boca Raton, Florida, with my wife Evelyn.
+I live in Boca Raton, Florida, with my wife Evelyn and son Nolan.
 
 I'm here to help. My formal expertise is in wave physics, 
 parallel computing and Earth system model development, 

@@ -36,6 +36,7 @@ Read the paper [here](https://arxiv.org/abs/1902.06714).
 
 ## General purpose
 
+* [Fortran stdlib](https://fortran-lang.org/stdlib): Community-developed Fortran Standard Library.
 * [datetime-fortran](https://github.com/wavebitscientific/datetime-fortran):
 Date and time library for Fortran.
 * [functional-fortran](https://github.com/wavebitscientific/functional-fortran):
