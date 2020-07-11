@@ -4,6 +4,13 @@ title: Speaking
 permalink: /speaking/
 ---
 
+* **2020-07-02**: Toward a thriving open source Fortran community. _FortranCon 2020_. 
+[**Slides**](https://milancurcic.com/FortranCon2020-community)
+
+* **2020-06-11**: Exploring Modern Fortran Basics. _Hosted by Manning Publications Twitch Channel_.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nklbk3l1zc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * **2020-04-17**: Open Source Directions, Episode 40: Fortran. _Hosted by OpenTeams and QuanSight".
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2NiS2tdDO_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
