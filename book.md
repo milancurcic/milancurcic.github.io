@@ -6,6 +6,10 @@ permalink: /book/
 
 ## Modern Fortran: Building Efficient Parallel Applications
 
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Bible, not gonna lie. <a href="https://t.co/M8T2JFM4gi">https://t.co/M8T2JFM4gi</a></p>&mdash; LDA advocate, B3LYP negationist (@QCTDFT) <a href="https://twitter.com/QCTDFT/status/1297577755903692800?ref_src=twsrc%5Etfw">August 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
 I wrote a book about parallel Fortran programming. 
 It guides the reader through the development of a parallel tsunami simulator 
 while promoting a modern Fortran style and syntax.
@@ -16,7 +20,7 @@ or you're interested in making your Fortran more clear, expressive,
 and functional, this is a book for you.
 
 The book is complete and is in production. 
-Hard copies are expected to ship in October 2020,
+Hard copies are expected to ship in November 2020,
 however, you can buy it now through Manning's Early Access Program (MEAP).
 To get a taste for the book before buying a copy, download chapters 2, 3, and 4
 for free [here](https://www.manning.com/books/exploring-modern-fortran-basics).
