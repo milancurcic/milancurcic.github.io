@@ -14,10 +14,64 @@
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/pico.min.css">
 
+    <style>
+        .profile-pics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .site-header {
+            text-align: center;
+        }
+
+        .profile-pics img {
+            flex: 1 1 250px;
+            width: 0;
+            max-width: 100%;
+            height: clamp(240px, 25vw, 300px);
+            object-fit: cover;
+        }
+
+        .papers,
+        .books,
+        .software {
+            margin: 2rem 0;
+        }
+
+        .paper-list li,
+        .software-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .book-covers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+
+        .book-cover {
+            display: block;
+        }
+
+        .book-cover img {
+            display: block;
+            width: auto;
+            max-width: 100%;
+            height: clamp(180px, 28vw, 300px);
+            object-fit: contain;
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.18);
+        }
+    </style>
+
     <!-- Open Graph / Social Media -->
     <meta property="og:title" content="Milan's website">
     <meta property="og:description" content="Milan's website">
-    <meta property="og:image" content="/images/milan.jpg">
+    <meta property="og:image" content="/images/milan-2026.jpg">
     <meta property="og:url" content="https://milancurcic.com">
 
     <!-- Page Title -->
@@ -26,47 +80,51 @@
 <body>
 <main class="container">
 
-  <h1>Milan Curcic</h1>
+  <div class="site-header">
+    <h1>Milan Curcic</h1>
 
-  <p>
-    <a href="mailto:milancurcic@hey.com">Email</a> | 
-    <a href="https://github.com/milancurcic">GitHub</a> | 
-    <a href="https://x.com/realmilancurcic">X</a> |
-    <a href="https://milancurcic.medium.com">Medium</a> |
-    <a href="https://scholar.google.com/citations?user=NS217eUAAAAJ">Google Scholar</a>
-  </p>
+    <p>
+      <a href="mailto:mcurcic@miami.edu">Email</a> |
+      <a href="https://github.com/milancurcic">GitHub</a> |
+      <a href="https://x.com/realmilancurcic">X</a> |
+      <a href="https://scholar.google.com/citations?user=NS217eUAAAAJ">Google Scholar</a>
+    </p>
+  </div>
+
+  <div class="profile-pics">
+    <img src="images/milan-2023.jpg" alt="Milan Curcic" width="800">
+    <img src="images/milan-2026.jpg" alt="Milan Curcic" width="800">
+  </div>
 
   <p>
     Welcome to my page!
-    I'm an Assistant Professor of Ocean Sciences at the University of Miami's
-    <a href="https://earth.miami.edu">Rosenstiel School of Marine, Atmospheric, and Earth Sciences</a>.
-    I also hold a joint appointment with the
+  </p>
+
+  <p>
+    I'm a Serbian-American scientist & author.
+    Currently I hold a joint appointment as an Assistant Professor of Ocean Sciences at the University of Miami's
+    <a href="https://earth.miami.edu">Rosenstiel School of Marine, Atmospheric, and Earth Sciences</a>
+    and a Core Faculty at the
     <a href="https://idsc.miami.edu/">Frost Institute for Data Science and Computing</a>.
-    I study ocean waves and their role in Earth System prediction, using theory,
+  </p>
+
+  <p>
+    I study ocean surface waves and their role in atmosphere and ocean surface boundary layers using theory,
     measurements, and numerical modeling.
-    My PhD dissertation (2015) was on momentum-conserving wind-wave-current coupling.
-    See my <a href="https://scholar.google.com/citations?user=NS217eUAAAAJ">Google Scholar</a> for all my papers.
-    I enjoy making scientific software and am an advocate for open-source software and open science.
+    My PhD dissertation (2015) was the first formulation of momentum-conserving wind-wave-current coupling.
+    You can find my academic group's GitHub page <a href="https://github.com/wavesgroup">here</a>.
+    I currently advise two PhD students, Susan Harrison (started Fall 2024) and Stephen Casey (started Spring 2025).
+    In 2025, I advised a postdoctoral associate Chong Jia.
   </p>
 
   <p>
-    I'm a Serbian-American and a proud dad of two boys, Nolan (5 years old) and Liam (deceased at birth on August 9, 2022).
+      My work is mainly funded by the US National Science Foundation and the Office of Naval Research.
+      I'm also a recent recipient of an NSF CAREER award to study wave tearing in hurricanes.
   </p>
 
   <p>
-    You can find my academic group's GitHub page <a href="https://github.com/wavesgroup">here</a>,
-    and on it some open-source wave-related software.
-    I currently advise two PhD students, Susan Harrison and Stephen Casey.
-  </p>
-
-  <p>
-    In 2020 I published a popular and highly-rated <a href="https://manning.com/books/modern-fortran">book on Fortran programming</a>.
-  </p>
-
-  <p>
-    Back in 2010, with late Prof. Mark Donelan, I co-created a spectral wave model <a href="https://umwm.org">UMWM</a>
-    More recently, I created the leading Fortran framework for deep learning,
-    <a href="https://github.com/modern-fortran/neural-fortran">neural-fortran</a>.
+    I currently have a fully funded opening for a PhD student to lead research on measuring and modeling the tearing of steep waves by strong wind.
+    Email me if you're interested.
   </p>
 
   <p>
@@ -77,8 +135,230 @@
   </p>
 
   <p>
+    I live in Boca Raton, FL, and am a proud dad of two boys, Nolan (6 years old) and Liam (deceased at birth on August 9, 2022).
+  </p>
+
+  <p>
     Please email me if you think I can help with anything!
   </p>
+
+  <section class="books" aria-labelledby="books-heading">
+    <h2 id="books-heading">Books</h2>
+    <div class="book-covers">
+      <a class="book-cover" href="https://manning.com/books/modern-fortran"
+         aria-label="Modern Fortran: Building Efficient Parallel Applications">
+        <img src="images/modern-fortran-cover.webp"
+             alt="Cover of Modern Fortran: Building Efficient Parallel Applications"
+             width="360" height="451" loading="lazy">
+      </a>
+      <a class="book-cover" href="https://github.com/wavesgroup/fluid-mechanics-notes"
+         aria-label="Fluid Mechanics for Atmosphere and Ocean Scientists">
+        <img src="images/fluid-mechanics-cover.webp"
+             alt="Cover of Fluid Mechanics for Atmosphere and Ocean Scientists"
+             width="480" height="720" loading="lazy">
+      </a>
+    </div>
+  </section>
+
+  <section class="papers" aria-labelledby="papers-heading">
+    <h2 id="papers-heading">Papers</h2>
+    <ol class="paper-list" reversed start="36">
+      <li>
+        <a href="https://doi.org/10.1029/2026JE009693">
+          Detelich et al. (2026). “Modeling the Seasonality of Wind-Driven Hydrocarbon Waves in Titan's Polar Lakes.” <em>Journal of Geophysical Research: Planets</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2025JE009490">
+          Schneck et al. (2026). “Modeling Wind-Driven Waves on Other Planets: Applications to Mars, Titan, and Exoplanets.” <em>Journal of Geophysical Research: Planets</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.ocemod.2025.102645">
+          Ribal et al. (2026). “Global wave model performance in the vicinity of the Monterey Bay, California.” <em>Ocean Modelling</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1109/TAP.2026.3657743">
+          Vinci et al. (2026). “Refractivity Estimation Using a Phase-Coherent Vertical Array.” <em>IEEE Transactions on Antennas and Propagation</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2025GL118617">
+          Jia &amp; Curcic (2025). “Ocean Wave Slope Effects on Global Air-Sea Turbulent Heat Flux.” <em>Geophysical Research Letters</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1109/LGRS.2025.3628993">
+          Shi et al. (2025). “Sea Surface Roughness Estimation Using a UAV.” <em>IEEE Geoscience and Remote Sensing Letters</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1007/s10546-025-00926-9">
+          Ortiz-Suslow et al. (2025). “Accounting for Ocean Waves and Current Shear in Wind Stress Parameterization.” <em>Boundary-Layer Meteorology</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1017/jfm.2025.10376">
+          Curcic (2025). “Revisiting the hydrodynamic modulation of short surface waves by longer waves.” <em>Journal of Fluid Mechanics</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1038/s41598-025-04118-w">
+          Lyu et al. (2025). “Reduction of air-sea momentum flux due to whitecap residual foam observed during a laboratory experiment.” <em>Scientific Reports</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2024JC021139">
+          Benbow et al. (2025). “Fair-Weather Nearshore Surface Winds: Observational Insights and Gaussian Process Regression Analysis.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2024JC021616">
+          Tan et al. (2025). “Wind-Wave Momentum Flux in Steep, Strongly Forced, Surface Gravity Wave Conditions.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.21105/joss.06742">
+          Elipot et al. (2024). “Clouddrift: a Python package to accelerate the use of Lagrangian data for atmospheric, oceanic, and climate sciences.” <em>Journal of Open Source Software</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2022JC019505">
+          Tan et al. (2023). “Laboratory Wave and Stress Measurements Quantify the Aerodynamic Sheltering in Extreme Winds.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1175/MWR-D-22-0303.1">
+          Hlywiak et al. (2023). “Evaluating Atmospheric Surface Layer Flux Parameterization within the Coastal Regime.” <em>Monthly Weather Review</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1109/MCSE.2022.3159862">
+          Kedward et al. (2022). “The State of Fortran.” <em>Computing in Science &amp; Engineering</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.ocemod.2022.101947">
+          Dobbelaere et al. (2022). “Impacts of Hurricane Irma (2017) on wave-induced ocean transport processes.” <em>Ocean Modelling</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2020JD033284">
+          Wang et al. (2021). “Propagating Mechanisms of the 2016 Summer BSISO Event: Air-Sea Coupling, Vorticity, and Moisture.” <em>Journal of Geophysical Research: Atmospheres</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1155/2020/8888811">
+          Ott et al. (2020). “A Fortran-Keras Deep Learning Bridge for Scientific Computing.” <em>Scientific Programming</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2020GL087647">
+          Curcic &amp; Haus (2020). “Revised estimates of ocean surface drag in strong winds.” <em>Geophysical Research Letters</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2018JC014813">
+          Haza et al. (2019). “Wind-Based Estimations of Ocean Surface Currents From Massive Clusters of Drifters in the Gulf of Mexico.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1145/3323057.3323059">
+          Curcic (2019). “A parallel Fortran framework for neural networks and deep learning.” <em>ACM SIGPLAN Fortran Forum</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1175/MWR-D-17-0371.1">
+          Li et al. (2019). “Uncertainty Propagation in Coupled Atmosphere-Wave-Ocean Prediction System: A Study of Hurricane Earl (2010).” <em>Monthly Weather Review</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.3389/fmars.2018.00479">
+          Carlson et al. (2018). “Surface Ocean Dispersion Observations From the Ship-Tethered Aerostat Remote Sensing System.” <em>Frontiers in Marine Science</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1175/JTECH-D-17-0143.1">
+          Haza et al. (2018). “Drogue-Loss Detection for Surface Drifters during the Lagrangian Submesoscale Experiment (LASER).” <em>Journal of Atmospheric and Oceanic Technology</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1061/(ASCE)WW.1943-5460.0000419">
+          Dietrich et al. (2018). “Sensitivity of Storm Surge Predictions to Atmospheric Forcing during Hurricane Isaac.” <em>Journal of Waterway, Port, Coastal, and Ocean Engineering</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1109/TGRS.2016.2645539">
+          Laxague et al. (2017). “Gravity-Capillary Wave Spectral Modulation by Gravity Waves.” <em>IEEE Transactions on Geoscience and Remote Sensing</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.ocemod.2016.09.010">
+          Lindo-Atichati et al. (2016). “Description of surface transport in the region of the Belizean Barrier Reef based on observations and alternative high-resolution models.” <em>Ocean Modelling</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1002/2015JC011569">
+          Mariano et al. (2016). “Statistical properties of the surface velocity field in the northern Gulf of Mexico sampled by GLAD drifters.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.ocemod.2015.08.005">
+          Chen &amp; Curcic (2016). “Ocean surface waves in Hurricane Ike (2008) and Superstorm Sandy (2012): Coupled model predictions and observations.” <em>Ocean Modelling</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1002/2015JC011555">
+          Judt et al. (2016). “Atmospheric forcing of the upper ocean transport in the Gulf of Mexico: From seasonal to diurnal scales.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1002/2015GL067619">
+          Curcic et al. (2016). “Hurricane-induced ocean waves and Stokes drift and their impacts on surface transport and dispersion in the Gulf of Mexico.” <em>Geophysical Research Letters</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1002/2015JC011320">
+          Zhu et al. (2016). “Impact of storm-induced cooling of sea surface temperature on large turbulent eddies and vertical turbulent transport in the atmospheric boundary layer of Hurricane Isaac.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.ocemod.2014.11.001">
+          Coelho et al. (2015). “Ocean current estimation using a Multi-Model Ensemble Kalman Filter during the Grand Lagrangian Deployment experiment (GLAD).” <em>Ocean Modelling</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.ocemod.2014.09.003">
+          Jacobs et al. (2014). “Data assimilation considerations for improved ocean predictability during the Gulf of Mexico Grand Lagrangian Deployment (GLAD).” <em>Ocean Modelling</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1029/2011JC007787">
+          Donelan et al. (2012). “Modeling waves and wind stress.” <em>Journal of Geophysical Research: Oceans</em>.
+        </a>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1016/j.jcp.2010.11.037">
+          Nickovic et al. (2011). “Method for efficient prevention of gravity wave decoupling on rectangular semi-staggered grids.” <em>Journal of Computational Physics</em>.
+        </a>
+      </li>
+    </ol>
+  </section>
+
+  <section class="software" aria-labelledby="software-heading">
+    <h2 id="software-heading">Software</h2>
+    <ul class="software-list">
+      <li><a href="https://umwm.org/">University of Miami Wave Model</a> - a spectral wave model</li>
+      <li><a href="https://github.com/uwincm/uwincm-public">Unified Wave INterface Coupled Model</a> - a momentum-conserving atmosphere-wave-ocean coupled model</li>
+      <li><a href="https://github.com/modern-fortran/neural-fortran">neural-fortran</a> - a deep learning framework for Fortran applications</li>
+      <li><a href="https://github.com/wavebitscientific/datetime-fortran">datetime-fortran</a> - a date and time library for Fortran</li>
+      <li><a href="https://github.com/wavebitscientific/functional-fortran">functional-fortran</a> - a functional programming library for Fortran</li>
+      <li><a href="https://github.com/wavesgroup/2wave">2wave</a> - a hydrodynamic modulation model for short waves riding on long waves</li>
+      <li><a href="https://dailydune.app">dailydune.app</a> - Frank Herbert's Dune quotes reader</li>
+      <li><a href="https://battlemat.app">battlemat.app</a> - a virtual tabletop for tactical roleplaying games</li>
+    </ul>
+  </section>
 
 </main>
 </body>
