@@ -45,9 +45,29 @@
 
         .paper-list li,
         .media-list li,
-        .speaking-list li,
         .software-list li {
             margin-bottom: 0.5rem;
+        }
+
+        .speaking-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+            gap: 1.5rem;
+        }
+
+        .talk {
+            margin: 0;
+        }
+
+        .talk iframe {
+            display: block;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border: 0;
+        }
+
+        .talk figcaption {
+            margin-top: 0.5rem;
         }
 
         .book-covers {
@@ -164,32 +184,47 @@
     </div>
   </section>
 
-  <section class="media" aria-labelledby="media-heading">
-    <h2 id="media-heading">Media</h2>
-    <ul class="media-list">
-      <li>
-        <a href="https://idsc.miami.edu/magazine/fall-2025/ocean-scientist-making-waves-in-his-field-receives-nsf-career-award/">
-          Ocean Scientist Making Waves in His Field Receives NSF CAREER Award
-        </a>
-      </li>
-      <li>
-        <a href="https://idsc.miami.edu/magazine/the-fluid-dynamics-that-charted-milan-curcics-career/">
-          The Fluid Dynamics That Charted Milan Curcic’s Career
-        </a>
-      </li>
-    </ul>
-  </section>
-
   <section class="speaking" aria-labelledby="speaking-heading">
     <h2 id="speaking-heading">Speaking</h2>
-    <ul class="speaking-list">
-      <li><a href="https://www.youtube.com/watch?v=LGezfU_fGAQ">Wave Action Balance</a> (2026)</li>
-      <li><a href="https://www.youtube.com/watch?v=OcTc2X8JZJU">Deterministic AI Agents for Downstream Tasks &amp; Application to Hurricane Forecasting</a> (2026)</li>
-      <li><a href="https://www.youtube.com/watch?v=qmo3mT4muqw">Wave Tearing by Wind</a> (2025)</li>
-      <li><a href="https://www.youtube.com/watch?v=4_aocZc-BWc">Short Waves on Longer Waves</a> (2024)</li>
-      <li><a href="https://www.youtube.com/watch?v=AmpkOi28-Ws">Earth System Prediction</a> (2023)</li>
-      <li><a href="https://www.youtube.com/watch?v=9hXgs-C8itk">Ocean Surface Drag Estimates</a> (2019)</li>
-    </ul>
+    <div class="speaking-grid">
+      <figure class="talk">
+        <iframe src="https://www.youtube-nocookie.com/embed/LGezfU_fGAQ" title="Wave Action Balance"
+                loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <figcaption>Wave Action Balance (2026)</figcaption>
+      </figure>
+      <figure class="talk">
+        <iframe src="https://www.youtube-nocookie.com/embed/OcTc2X8JZJU"
+                title="Deterministic AI Agents for Downstream Tasks and Application to Hurricane Forecasting"
+                loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <figcaption>Deterministic AI Agents for Downstream Tasks &amp; Application to Hurricane Forecasting (2026)</figcaption>
+      </figure>
+      <figure class="talk">
+        <iframe src="https://www.youtube-nocookie.com/embed/qmo3mT4muqw" title="Wave Tearing by Wind"
+                loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <figcaption>Wave Tearing by Wind (2025)</figcaption>
+      </figure>
+      <figure class="talk">
+        <iframe src="https://www.youtube-nocookie.com/embed/4_aocZc-BWc" title="Short Waves on Longer Waves"
+                loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <figcaption>Short Waves on Longer Waves (2024)</figcaption>
+      </figure>
+      <figure class="talk">
+        <iframe src="https://www.youtube-nocookie.com/embed/AmpkOi28-Ws" title="Earth System Prediction"
+                loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <figcaption>Earth System Prediction (2023)</figcaption>
+      </figure>
+      <figure class="talk">
+        <iframe src="https://www.youtube-nocookie.com/embed/9hXgs-C8itk" title="Ocean Surface Drag Estimates"
+                loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        <figcaption>Ocean Surface Drag Estimates (2019)</figcaption>
+      </figure>
+    </div>
   </section>
 
   <section class="papers" aria-labelledby="papers-heading">
@@ -395,6 +430,22 @@
       <li><a href="https://github.com/wavesgroup/2wave">2wave</a> - a hydrodynamic modulation model for short waves riding on long waves</li>
       <li><a href="https://dailydune.app">Daily Dune</a> - Frank Herbert's Dune quotes reader</li>
       <li><a href="https://battlemat.app">battlemat</a> - a virtual tabletop for tactical roleplaying games</li>
+    </ul>
+  </section>
+
+  <section class="media" aria-labelledby="media-heading">
+    <h2 id="media-heading">Media</h2>
+    <ul class="media-list">
+      <li>
+        <a href="https://idsc.miami.edu/magazine/fall-2025/ocean-scientist-making-waves-in-his-field-receives-nsf-career-award/">
+          Ocean Scientist Making Waves in His Field Receives NSF CAREER Award
+        </a> (September 3, 2026)
+      </li>
+      <li>
+        <a href="https://idsc.miami.edu/magazine/the-fluid-dynamics-that-charted-milan-curcics-career/">
+          The Fluid Dynamics That Charted Milan Curcic’s Career
+        </a> (January 28, 2024)
+      </li>
     </ul>
   </section>
 
